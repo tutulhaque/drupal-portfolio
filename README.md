@@ -1,6 +1,6 @@
-# MyTheme – Drupal 11 Custom Theme
+# MyTheme – Drupal 11 Personal Portfolio Image
 
-![MyTheme Screenshot](https://images.unsplash.com/photo-1506748686210-6c8b3d3c4b5f?auto=format&fit=crop&w=1950&q=80)
+![MyTheme Screenshot](https://tutulhaque.website/wp-content/uploads/2025/09/Screenshot-2025-09-14-at-21.37.21.png?auto=format&fit=crop&w=1950&q=80)
 
 **MyTheme** is a simple, clean, and modern **custom Drupal 11 theme** built for learning and demonstration purposes. It is designed to be fully responsive and easy to customize for personal or project websites.
 
