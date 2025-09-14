@@ -1,0 +1,24 @@
+# Drupal core + contrib folders/files to ignore
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/settings*.php
+
+# Composer files
+/composer.lock
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# Logs and temp files
+*.log
+tmp/

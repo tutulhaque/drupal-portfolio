@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ language.getId }}">
+  <head>
+    <head-placeholder token="{{ placeholder_token|raw }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token|raw }}">
+    <js-placeholder token="{{ placeholder_token|raw }}">
+  </head>
+  <body class="mytheme-body">
+    <header class="mytheme-header">
+      <nav class="mytheme-navbar">
+        <div class="logo">
+          <a href="{{ path('<front>') }}">MyTheme</a>
+        </div>
+        <ul class="menu">
+          <li><a href="{{ path('<front>') }}">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<main class="mytheme-content">
+
+  <!-- Hero Banner -->
+  <section class="hero-banner">
+    <div class="hero-text">
+      <h2>Welcome to My Custom Theme</h2>
+      <p>Building beautiful websites with Drupal 11</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-us container">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="About Me">
+    </div>
+    <div class="about-text">
+      <h3>Hi! I am</h3>
+      <h3>Md Saifuddullah Tutul</h3>
+
+      <p>I am a Web Developer who dedicates my skills and knowledge to solving real-world problems. I am studying Software Engineering at Business College Helsinki(Finland). My educational background ( B.Sc. in Computer Science and Engineering (BU, Bangladesh)) gives me a strong fundamental understanding of Programming. My work ranges from Website design to Website Development and Software Architecture and design. I always like to solve problems and try to come up with new ideas. Currently, I am working as a Freelancer at Fiverr.com also collaborating remotely with various clients from different locations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section class="projects container">
+    <h3>My Projects</h3>
+    <div class="project-grid">
+      <div class="project-item">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=400&q=80" alt="Project 1">
+        <h4>Project 1</h4>
+      </div>
+      <div class="project-item">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Project 2">
+        <h4>Project 2</h4>
+      </div>
+      <div class="project-item">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Project 3">
+        <h4>Project 3</h4>
+      </div>
+      <div class="project-item">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=400&q=80" alt="Project 1">
+        <h4>Project 4</h4>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+
+    <footer class="mytheme-footer">
+      <p>© {{ "now"|date("Y") }} My Custom Theme | All rights reserved</p>
+    </footer>
+
+    <js-bottom-placeholder token="{{ placeholder_token|raw }}">
+  </body>
+</html>
